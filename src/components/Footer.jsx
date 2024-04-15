@@ -38,7 +38,7 @@ export default function Footer() {
         <p className="font-thin sm:text-sm text-green-50/50 text-xs">
           &copy;{new Date().getFullYear()} - All Rights Reserved
         </p>
-        <ul className="flex flex-col font-extralight gap-2 items-end self-end sm:text-sm text-xs">
+        <ul className="flex flex-col font-extralight gap-4 items-end self-end sm:text-sm text-xs">
           <li>
             <a href="mailto:nvirkcom@gmail.com">nvirkcom@gmail.com</a>
           </li>
