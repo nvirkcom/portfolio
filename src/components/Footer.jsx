@@ -34,9 +34,19 @@ export default function Footer() {
       <p className="py-16 sm:py-32 sm:text-8xl text-5xl">
         Let's work together!
       </p>
-      <p className="font-thin sm:text-sm text-xs">
-        &copy;{new Date().getFullYear()} - All Rights Reserved
-      </p>
+      <div className="flex items-end justify-between">
+        <p className="font-thin sm:text-sm text-green-50/50 text-xs">
+          &copy;{new Date().getFullYear()} - All Rights Reserved
+        </p>
+        <ul className="flex flex-col font-extralight gap-2 items-end self-end sm:text-sm text-xs">
+          <li>
+            <a href="mailto:nvirkcom@gmail.com">nvirkcom@gmail.com</a>
+          </li>
+          <li>
+            <a href="tel:+12369992496">+1 (236) 999-2496</a>
+          </li>
+        </ul>
+      </div>
     </footer>
   );
 }
